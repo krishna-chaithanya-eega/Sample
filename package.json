@@ -2,7 +2,7 @@
   "name": "react",
   "version": "0.0.0",
   "private": true,
-  "homepage":"https://krishna-chaithanya-eega.github.io/Sample",
+  
   "dependencies": {
     "gh-pages": "^3.1.0",
     "react": "^17.0.0",
