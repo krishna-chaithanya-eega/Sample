@@ -1,11 +1,16 @@
-import React from "react";
-import "./style.css";
+import React, { useState } from "react";
 
 export default function App() {
+  const [count, Inc] = useState(10);
+
+  const IncNum = () => {
+    Inc(count + 1);
+  };
+
   return (
     <div>
-      <h1>Hello ekc!</h1>
-      <p>Basic react app</p>
+      <h1>{count}</h1>
+      <button onClick={IncNum}>click</button>
     </div>
   );
 }
